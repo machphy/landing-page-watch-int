@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+::selection {
+  color: #000;
+  background: #fff;
+}
+nav {
+  position: fixed;
+  background: #1b1b1b;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.menu ul {
+  display: inline-flex;
+}
+.menu ul li {
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child {
+  margin-left: 0px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover {
+  background: #fff;
+  color: black;
+}
+.img {
+  background: url("endurance_map__b2nx5svyozma_large.jpg") no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.img::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.center {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+.center .title {
+  color: #fff;
+  font-size: 55px;
+  font-weight: 600;
+}
+.center .sub_title {
+  color: #fff;
+  font-size: 52px;
+  font-weight: 600;
+}
+
+@keyframes ani {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 400%;
+  }
+}
+
+/* img 2 */
+.img2 {
+    background: url("endurance_mountain__gjo2z8yxhwi2_large.jpg") no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .h6{
+    position: absolute;
+    top: -30%;
+    left: 34%;
+  }
+  .img::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .kuch {
+    position: absolute;
+    top: 150%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .text{
+    font-size: 64px;
+    line-height: 1.0625;
+    font-weight: 700;
+    letter-spacing: -0.009em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  }
+  .kuch .text {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 600;
+  }
+  .kuch .text {
+    color: #fff;
+    font-size: 52px;
+    font-weight: 600;
+  }
+  /* img3 */
+  .img3 {
+    background: url("endurance_hero_float__x63eexrb13mi_large.jpg") no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .img::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .kuch1 {
+    position: absolute;
+    top: 255%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .kuch1 .text1 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 600;
+  }
+  .kuch1 .text1 {
+    color: #fff;
+    font-size: 52px;
+    font-weight: 600;
+  }
+  /* last section of web page  */
+
+
+  #contact {
+    background-color: #333;
+  }
+  
+  #contact p {
+    color: #fbfbfb;
+    font-size: 24px;
+    padding: 20px 0;
+  }
+  
+  .contact-btn {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  footer {
+    background-color: #131313;
+  }
+  
+  footer > span {
+    font-size: 15px;
+    color: #555;
+  }
+  
+  .footer-nav {
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .footer-nav li {
+    display: inline;
+    font-weight: 600;
+    padding-right: 20px;
+  }
+  
+  .footer-nav a {
+    color: #79797B;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  .footer-nav a:hover {
+    color: #fbfbfb;
+  }
